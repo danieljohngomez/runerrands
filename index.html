@@ -247,22 +247,22 @@
                         <form name="registration" data-netlify="true">
                             <div class="form-group">
                                 <label for="inputName">Name</label>
-                                <input type="text" class="form-control" id="inputName">
+                                <input type="text" class="form-control" id="inputName" name="name" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputEmail">Email Address</label>
-                                <input type="email" class="form-control" id="inputEmail">
+                                <input type="email" class="form-control" id="inputEmail" name="email" required>
                             </div>
                             <div class="form-group">
                                 <label for="inputContact">Contact Number</label>
-                                <input type="tel" class="form-control" id="inputContact">
+                                <input type="tel" class="form-control" id="inputContact" name="contact-number" required>
                             </div>
                             <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="inputLister">
+                                <input type="checkbox" class="form-check-input" id="inputLister" name="lister">
                                 <label class="form-check-label" for="inputLister">I want to be a <span style="color: #0898E7;">Lister</span></label>
                             </div>
                             <div class="form-group form-check">
-                                <input type="checkbox" class="form-check-input" id="inputRunner">
+                                <input type="checkbox" class="form-check-input" id="inputRunner" name="runner">
                                 <label class="form-check-label" for="inputRunner">I want to be a <span style="color: #0898E7;">Runner</span></label>
                             </div>
                             <button type="submit" class="btn btn-primary btn-block">Register</button>
